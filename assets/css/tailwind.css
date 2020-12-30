@@ -1,0 +1,31 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import '~assets/fonts/fonts.css';
+
+:root {
+    --color-gray:  #4a4a4a;
+    --color-gray-light: #929292;
+    --color-gray-dark: #2e2e2e;
+    --color-gray-rgb:  74, 74, 74;
+
+
+    --color-teal: #0a4e65;
+    --color-teal-light: #69a593;
+    --color-teal-dark: #030a42;
+    --color-teal-rgb: 10, 78, 101;
+
+
+    --color-mint: #22a18e;
+    --color-mint-light: #77ca8f;
+    --color-mint-dark: #113e69;
+
+    --color-green: #acd7c1;
+    --color-green-light: #cee8cc;
+    --color-green-dark: #6a8488;
+
+    --color-lightgreen: #8ac587;
+    --color-lightgreen-light: #cedeb5;
+    --color-lightgreen-dark: #537f6d;
+  }
