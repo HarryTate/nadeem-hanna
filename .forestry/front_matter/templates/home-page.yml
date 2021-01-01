@@ -2,15 +2,6 @@
 label: Home page
 hide_body: true
 fields:
-- name: hero
-  type: blocks
-  label: Hero
-  template_types:
-  - home-page
-  - home-page
-  config:
-    min: 
-    max: 
 - name: intro
   type: include
   config: {}
