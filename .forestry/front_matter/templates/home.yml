@@ -1,4 +1,16 @@
 ---
 label: home
 hide_body: false
-fields: []
+fields:
+- name: fvdf
+  type: text
+  config:
+    required: false
+  label: fvdf
+  description: fvdf
+- name: dffdvdfv
+  type: text
+  config:
+    required: false
+  label: dffdvdfv
+  description: vdfvf
