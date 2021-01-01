@@ -18,7 +18,7 @@ export default {
   },
   async asyncData() {
     try {
-        const data = await import(`~/content/pages/home.md`);
+        const data = await import(`~/content/pages/home`);
         return {
         data
         }
