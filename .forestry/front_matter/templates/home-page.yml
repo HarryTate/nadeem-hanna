@@ -11,3 +11,5 @@ fields:
     min: 
     max: 
   description: This is the top section containing and image, title and job title
+pages:
+- content/pages/home.app
