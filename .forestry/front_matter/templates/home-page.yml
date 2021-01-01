@@ -6,8 +6,14 @@ fields:
   type: blocks
   label: Hero
   template_types:
-  - hero
+  - home-page
+  - home-page
   config:
     min: 
     max: 
-  description: This is the top section containing and image, title and job title
+- name: intro
+  type: include
+  config: {}
+  template: home-page
+  label: Intro
+  hidden: false
