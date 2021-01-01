@@ -5,8 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: pages
-  label: Pages
+  path: content
+  label: Content
   create: documents
   match: "**/*"
   new_doc_ext: md
