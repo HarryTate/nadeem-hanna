@@ -7,9 +7,9 @@ sections:
 - type: directory
   path: pages
   label: Pages
-  create: documents
+  create: all
   match: "**/*"
-  new_doc_ext: md
+  new_doc_ext: ''
 - type: document
   path: about
   label: about
