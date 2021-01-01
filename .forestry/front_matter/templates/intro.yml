@@ -2,13 +2,12 @@
 label: Intro
 hide_body: true
 fields:
-- name: text
-  type: text
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types:
+  - hero
+  - intro
   config:
-    required: false
-  label: Text
-- name: image
-  type: file
-  config:
-    maxSize: 64
-  label: Image
+    min: 
+    max: 
