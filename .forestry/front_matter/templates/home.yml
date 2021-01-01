@@ -12,5 +12,3 @@ fields:
     min: 
     max: 
   hidden: false
-pages:
-- content/pages/Home.app
