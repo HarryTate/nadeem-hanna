@@ -1,6 +1,8 @@
 <template>
   <main>
     <Hero /> 
+    {{data}}
+    {{data.attributes.blocks[0]["heading"]}}
     <Intro />
     <Timeline />
     <Projects />
