@@ -1,0 +1,9 @@
+---
+label: about
+hide_body: false
+fields:
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
