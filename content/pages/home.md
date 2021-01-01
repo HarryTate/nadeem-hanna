@@ -3,7 +3,7 @@ blocks:
 - template: hero
   profile_picture: "/uploads/nadeem.jpeg"
   heading: Nadeem Hannaf
-  strapline: Architect
+  strapline: Architectnn
 - template: intro
   intro_text: text
   intro_image: text
