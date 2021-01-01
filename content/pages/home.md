@@ -7,5 +7,7 @@ blocks:
 - template: intro
   intro_text: ''
   intro_image: ''
+  text: text
+  image: "/uploads/nadeem.jpeg"
 
 ---
