@@ -13,4 +13,4 @@ fields:
     required: false
   label: Description
 pages:
-- content/components/nadeem-hanna.app
+- content/components/nadeem-hanna.md

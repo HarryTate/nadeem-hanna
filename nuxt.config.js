@@ -1,3 +1,5 @@
+const path = require("path");
+import Mode from 'frontmatter-markdown-loader/mode'
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
@@ -61,6 +63,17 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    extend(config, ctx) {
+      // add frontmatter-markdown-loader
+      config.module.rules.push({
+        test: /\.md$/,
+        include: path.resolve(__dirname, "content"),
+        loader: "frontmatter-markdown-loader",
+        options: {
+          mode: [Mode.VUE_COMPONENT, Mode.META]
+        }
+      });
+    },
     vendor: ["aos"]
   }
 }
