@@ -2,8 +2,11 @@
   <main>
     <Hero /> 
     <Intro />
-    <div>
-      {{data.attributes.blocks[0].template}}
+    <component v-for="(component, index) in data.attributes.blocks" :is="component.template" :key="index"/>
+      <div>
+        {{data.attributes.blocks[0].heading}}
+        {{data.attributes.blocks[0].strapline}}
+        {{data.attributes.blocks[0].profile_picture}}
     </div>
     <Timeline />
     <Projects />
