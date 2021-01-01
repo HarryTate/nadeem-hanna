@@ -2,13 +2,17 @@
 label: Intro
 hide_body: true
 fields:
-- name: intro_text
-  type: text
+- name: text
+  type: textarea
+  default: ''
   config:
-    required: false
-  label: Intro Text
-- name: intro_image
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text
+- name: image
   type: file
   config:
     maxSize: 64
-  label: Intro image
+  label: Image
