@@ -4,16 +4,15 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: about
-  label: about
-  match: "**/*"
 - type: directory
   path: pages
   label: Pages
   create: documents
   match: "**/*"
   new_doc_ext: md
+- type: document
+  path: about
+  label: about
 - type: heading
   label: Pages
 upload_dir: uploads
