@@ -8,7 +8,7 @@ sections:
   path: pages
   label: Pages
   create: documents
-  match: "**/*"
+  match: "*"
   new_doc_ext: md
 - type: document
   path: about
