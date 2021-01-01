@@ -1,4 +1,19 @@
 ---
 label: Hero
 hide_body: true
-fields: []
+fields:
+- name: profile_picture
+  type: file
+  config:
+    maxSize: 64
+  label: Profile Picture
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+- name: strapline
+  type: text
+  config:
+    required: false
+  label: Strapline
