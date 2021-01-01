@@ -2,6 +2,9 @@
   <main>
     <Hero /> 
     <Intro />
+    <div>
+      {{data.attributes.blocks[0].template}}
+    </div>
     <Timeline />
     <Projects />
     <Skills />
@@ -11,6 +14,7 @@
 <script>
 
 export default {
+  name: "Home",
   computed: {
     bgImg() {
       return require("~/assets/images/city-render.jpg");
