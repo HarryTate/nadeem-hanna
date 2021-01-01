@@ -1,4 +1,13 @@
 ---
 label: Home page
 hide_body: true
-fields: []
+fields:
+- name: hero
+  type: blocks
+  label: Hero
+  template_types:
+  - hero
+  config:
+    min: 
+    max: 
+  description: This is the top section containing and image, title and job title
