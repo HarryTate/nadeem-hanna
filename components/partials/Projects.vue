@@ -4,7 +4,7 @@
         <h2 class="font-bold text-4xl text-center mb-6">Projects</h2>
     </div>
     <div class="container mx-auto" data-aos="fade-down" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom" >
-        <div class="flex flex-wrap -mx-2 px-2 md:px-0">
+        <div class="flex flex-wrap md:-mx-2 px-2 md:px-0">
             <div class="group my-2 px-2 w-full lg:w-1/3" v-for="project in projects" :key="project.id">
                 <Card :img="project.img" :title="project.title" :description="project.description" class="shadow-lg"/>
             </div>

@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-teal-dark">
     <div class="py-10 mx-auto container text-white">
-      <div class="flex flex-wrap -mx-3 overflow-hidden">
+      <div class="flex flex-wrap overflow-hidden">
         <div class="my-3 px-3 w-full overflow-hidden md:w-1/2">
           <h3 class="text-xl font-bold">Explore</h3>
           <ul></ul>

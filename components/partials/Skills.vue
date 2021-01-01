@@ -15,6 +15,7 @@
 
 <script>
 export default {
+    name: "Skills",
     data() {
         return {
             skills: [
