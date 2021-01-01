@@ -9,7 +9,7 @@ sections:
   label: Content
   create: all
   match: "**/*"
-  new_doc_ext: ''
+  new_doc_ext: app
 - type: document
   path: about
   label: about
