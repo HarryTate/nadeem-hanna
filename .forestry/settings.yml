@@ -13,8 +13,6 @@ sections:
 - type: document
   path: about
   label: about
-- type: heading
-  label: Pages
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
