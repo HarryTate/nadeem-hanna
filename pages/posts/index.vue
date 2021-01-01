@@ -3,7 +3,7 @@
         <h1>My blog posts</h1>
         <ul>
             <li v-for="post in posts" :key="post.attributes.title">
-                <nuxt-link to="getPermalink(post)"></nuxt-link>
+                <nuxt-link :to="getPermalink(post)"></nuxt-link>
             </li>
         </ul>
     </div>

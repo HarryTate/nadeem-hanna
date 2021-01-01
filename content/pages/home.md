@@ -5,8 +5,8 @@ blocks:
   heading: Nadeem Hanna
   strapline: Architect
 - template: intro
-  intro_text: ''
-  intro_image: ''
+  intro_text: 'text'
+  intro_image: 'text'
   text: text
   image: "/uploads/nadeem.jpeg"
 
