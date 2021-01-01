@@ -1,6 +1,6 @@
 ---
 hero:
-- template: hero
+- template: herorrrrrr
   title: ''
   description: ''
 
