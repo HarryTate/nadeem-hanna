@@ -17,3 +17,5 @@ fields:
   config:
     required: false
   label: Strapline
+pages:
+- content/pages/Hero.app
