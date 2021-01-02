@@ -30,7 +30,7 @@ export default {
     bgImg() {
       return require("~/assets/images/city-render.jpg");
     }
-  }
+  },
 }
 </script>
 
