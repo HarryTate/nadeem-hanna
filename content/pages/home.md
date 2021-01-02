@@ -2,11 +2,11 @@
 blocks:
 - template: hero
   profile_picture: "/uploads/nadeem.jpeg"
-  heading: Nadeem Hanna
-  strapline: Architect
+  heading: Nadeem Hannaf
+  strapline: Architectnn
 - template: intro
-  intro_text: 'text'
-  intro_image: 'text'
+  intro_text: text
+  intro_image: text
   text: text
   image: "/uploads/nadeem.jpeg"
 
